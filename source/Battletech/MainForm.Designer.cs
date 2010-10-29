@@ -30,194 +30,103 @@
         {
             this.TechnologyTab = new System.Windows.Forms.TabControl();
             this.MainSelectionTabPage = new System.Windows.Forms.TabPage();
-            this.tabPage2 = new System.Windows.Forms.TabPage();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.textBox8 = new System.Windows.Forms.TextBox();
-            this.textBox9 = new System.Windows.Forms.TextBox();
-            this.textBox10 = new System.Windows.Forms.TextBox();
-            this.textBox11 = new System.Windows.Forms.TextBox();
-            this.textBox12 = new System.Windows.Forms.TextBox();
+            this.TechnologyGroupBox = new System.Windows.Forms.GroupBox();
+            this.ClanRadio = new System.Windows.Forms.RadioButton();
+            this.InnerSphereRadio = new System.Windows.Forms.RadioButton();
+            this.InternalStructureTabPage = new System.Windows.Forms.TabPage();
             this.tabPage3 = new System.Windows.Forms.TabPage();
+            this.ArmorGroupBox = new System.Windows.Forms.GroupBox();
+            this.radioButton4 = new System.Windows.Forms.RadioButton();
+            this.radioButton3 = new System.Windows.Forms.RadioButton();
+            this.radioButton2 = new System.Windows.Forms.RadioButton();
+            this.radioButton1 = new System.Windows.Forms.RadioButton();
             this.tabPage4 = new System.Windows.Forms.TabPage();
             this.tabPage5 = new System.Windows.Forms.TabPage();
             this.tabPage6 = new System.Windows.Forms.TabPage();
-            this.ClanRadio = new System.Windows.Forms.RadioButton();
-            this.InnerSphereRadio = new System.Windows.Forms.RadioButton();
-            this.TonnageCombo = new System.Windows.Forms.ComboBox();
-            this.technologyGroupBox = new System.Windows.Forms.GroupBox();
-            this.ArmorGroupBox = new System.Windows.Forms.GroupBox();
-            this.radioButton1 = new System.Windows.Forms.RadioButton();
-            this.radioButton2 = new System.Windows.Forms.RadioButton();
-            this.radioButton3 = new System.Windows.Forms.RadioButton();
-            this.radioButton4 = new System.Windows.Forms.RadioButton();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.BattlemechNameGroupBox = new System.Windows.Forms.GroupBox();
+            this.YearRatingGroupBox = new System.Windows.Forms.GroupBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.YearRatingCheckBox = new System.Windows.Forms.CheckBox();
+            this.OmniMechCheckBox = new System.Windows.Forms.CheckBox();
+            this.MechWeightGroupBox = new System.Windows.Forms.GroupBox();
+            this.LightMechRadio = new System.Windows.Forms.RadioButton();
+            this.MediumMechRadio = new System.Windows.Forms.RadioButton();
+            this.HeavyMechRadio = new System.Windows.Forms.RadioButton();
+            this.AssualtMechRadio = new System.Windows.Forms.RadioButton();
+            this.FactionGroupBox = new System.Windows.Forms.GroupBox();
+            this.numericUpDown2 = new System.Windows.Forms.NumericUpDown();
+            this.label6 = new System.Windows.Forms.Label();
+            this.FactionCheckBox = new System.Windows.Forms.CheckBox();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.label7 = new System.Windows.Forms.Label();
             this.TechnologyTab.SuspendLayout();
             this.MainSelectionTabPage.SuspendLayout();
+            this.TechnologyGroupBox.SuspendLayout();
             this.tabPage3.SuspendLayout();
-            this.technologyGroupBox.SuspendLayout();
             this.ArmorGroupBox.SuspendLayout();
+            this.BattlemechNameGroupBox.SuspendLayout();
+            this.YearRatingGroupBox.SuspendLayout();
+            this.MechWeightGroupBox.SuspendLayout();
+            this.FactionGroupBox.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).BeginInit();
             this.SuspendLayout();
             // 
             // TechnologyTab
             // 
             this.TechnologyTab.Alignment = System.Windows.Forms.TabAlignment.Right;
             this.TechnologyTab.Controls.Add(this.MainSelectionTabPage);
-            this.TechnologyTab.Controls.Add(this.tabPage2);
+            this.TechnologyTab.Controls.Add(this.InternalStructureTabPage);
             this.TechnologyTab.Controls.Add(this.tabPage3);
             this.TechnologyTab.Controls.Add(this.tabPage4);
             this.TechnologyTab.Controls.Add(this.tabPage5);
             this.TechnologyTab.Controls.Add(this.tabPage6);
             this.TechnologyTab.Dock = System.Windows.Forms.DockStyle.Right;
-            this.TechnologyTab.Location = new System.Drawing.Point(447, 0);
+            this.TechnologyTab.Location = new System.Drawing.Point(484, 0);
             this.TechnologyTab.Multiline = true;
             this.TechnologyTab.Name = "TechnologyTab";
             this.TechnologyTab.SelectedIndex = 0;
-            this.TechnologyTab.Size = new System.Drawing.Size(415, 839);
+            this.TechnologyTab.Size = new System.Drawing.Size(532, 741);
             this.TechnologyTab.TabIndex = 0;
             // 
             // MainSelectionTabPage
             // 
-            this.MainSelectionTabPage.Controls.Add(this.technologyGroupBox);
-            this.MainSelectionTabPage.Controls.Add(this.TonnageCombo);
+            this.MainSelectionTabPage.Controls.Add(this.FactionCheckBox);
+            this.MainSelectionTabPage.Controls.Add(this.FactionGroupBox);
+            this.MainSelectionTabPage.Controls.Add(this.MechWeightGroupBox);
+            this.MainSelectionTabPage.Controls.Add(this.YearRatingCheckBox);
+            this.MainSelectionTabPage.Controls.Add(this.YearRatingGroupBox);
+            this.MainSelectionTabPage.Controls.Add(this.BattlemechNameGroupBox);
+            this.MainSelectionTabPage.Controls.Add(this.label3);
+            this.MainSelectionTabPage.Controls.Add(this.TechnologyGroupBox);
+            this.MainSelectionTabPage.ForeColor = System.Drawing.SystemColors.ControlText;
             this.MainSelectionTabPage.Location = new System.Drawing.Point(4, 4);
             this.MainSelectionTabPage.Name = "MainSelectionTabPage";
             this.MainSelectionTabPage.Padding = new System.Windows.Forms.Padding(3);
-            this.MainSelectionTabPage.Size = new System.Drawing.Size(388, 831);
+            this.MainSelectionTabPage.Size = new System.Drawing.Size(505, 733);
             this.MainSelectionTabPage.TabIndex = 0;
             this.MainSelectionTabPage.Text = "Technology";
             this.MainSelectionTabPage.UseVisualStyleBackColor = true;
             // 
-            // tabPage2
+            // TechnologyGroupBox
             // 
-            this.tabPage2.Location = new System.Drawing.Point(4, 4);
-            this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(388, 831);
-            this.tabPage2.TabIndex = 1;
-            this.tabPage2.Text = "Engine";
-            this.tabPage2.UseVisualStyleBackColor = true;
-            // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(48, 698);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(80, 20);
-            this.textBox1.TabIndex = 0;
-            // 
-            // textBox2
-            // 
-            this.textBox2.Location = new System.Drawing.Point(134, 652);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 20);
-            this.textBox2.TabIndex = 1;
-            // 
-            // textBox4
-            // 
-            this.textBox4.Location = new System.Drawing.Point(215, 789);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(100, 20);
-            this.textBox4.TabIndex = 3;
-            // 
-            // textBox5
-            // 
-            this.textBox5.Location = new System.Drawing.Point(77, 789);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(100, 20);
-            this.textBox5.TabIndex = 4;
-            // 
-            // textBox6
-            // 
-            this.textBox6.Location = new System.Drawing.Point(71, 724);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(32, 20);
-            this.textBox6.TabIndex = 5;
-            // 
-            // textBox7
-            // 
-            this.textBox7.Location = new System.Drawing.Point(256, 724);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(35, 20);
-            this.textBox7.TabIndex = 6;
-            // 
-            // textBox8
-            // 
-            this.textBox8.Location = new System.Drawing.Point(317, 721);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(28, 20);
-            this.textBox8.TabIndex = 7;
-            // 
-            // textBox9
-            // 
-            this.textBox9.Location = new System.Drawing.Point(240, 698);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(69, 20);
-            this.textBox9.TabIndex = 8;
-            // 
-            // textBox10
-            // 
-            this.textBox10.Location = new System.Drawing.Point(6, 721);
-            this.textBox10.Name = "textBox10";
-            this.textBox10.Size = new System.Drawing.Size(33, 20);
-            this.textBox10.TabIndex = 9;
-            // 
-            // textBox11
-            // 
-            this.textBox11.Location = new System.Drawing.Point(134, 686);
-            this.textBox11.Name = "textBox11";
-            this.textBox11.Size = new System.Drawing.Size(100, 20);
-            this.textBox11.TabIndex = 10;
-            // 
-            // textBox12
-            // 
-            this.textBox12.Location = new System.Drawing.Point(151, 712);
-            this.textBox12.Name = "textBox12";
-            this.textBox12.Size = new System.Drawing.Size(63, 20);
-            this.textBox12.TabIndex = 11;
-            // 
-            // tabPage3
-            // 
-            this.tabPage3.Controls.Add(this.ArmorGroupBox);
-            this.tabPage3.Location = new System.Drawing.Point(4, 4);
-            this.tabPage3.Name = "tabPage3";
-            this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage3.Size = new System.Drawing.Size(388, 831);
-            this.tabPage3.TabIndex = 2;
-            this.tabPage3.Text = "Armor";
-            this.tabPage3.UseVisualStyleBackColor = true;
-            // 
-            // tabPage4
-            // 
-            this.tabPage4.Location = new System.Drawing.Point(4, 4);
-            this.tabPage4.Name = "tabPage4";
-            this.tabPage4.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage4.Size = new System.Drawing.Size(388, 831);
-            this.tabPage4.TabIndex = 3;
-            this.tabPage4.Text = "Weapons";
-            this.tabPage4.UseVisualStyleBackColor = true;
-            // 
-            // tabPage5
-            // 
-            this.tabPage5.Location = new System.Drawing.Point(4, 4);
-            this.tabPage5.Name = "tabPage5";
-            this.tabPage5.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage5.Size = new System.Drawing.Size(388, 831);
-            this.tabPage5.TabIndex = 4;
-            this.tabPage5.Text = "tabPage5";
-            this.tabPage5.UseVisualStyleBackColor = true;
-            // 
-            // tabPage6
-            // 
-            this.tabPage6.Location = new System.Drawing.Point(4, 4);
-            this.tabPage6.Name = "tabPage6";
-            this.tabPage6.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage6.Size = new System.Drawing.Size(388, 831);
-            this.tabPage6.TabIndex = 5;
-            this.tabPage6.Text = "tabPage6";
-            this.tabPage6.UseVisualStyleBackColor = true;
+            this.TechnologyGroupBox.Controls.Add(this.OmniMechCheckBox);
+            this.TechnologyGroupBox.Controls.Add(this.ClanRadio);
+            this.TechnologyGroupBox.Controls.Add(this.InnerSphereRadio);
+            this.TechnologyGroupBox.Location = new System.Drawing.Point(6, 8);
+            this.TechnologyGroupBox.Name = "TechnologyGroupBox";
+            this.TechnologyGroupBox.Size = new System.Drawing.Size(332, 47);
+            this.TechnologyGroupBox.TabIndex = 12;
+            this.TechnologyGroupBox.TabStop = false;
+            this.TechnologyGroupBox.Text = "Technology Base:";
+            this.TechnologyGroupBox.Enter += new System.EventHandler(this.groupBox1_Enter);
             // 
             // ClanRadio
             // 
@@ -242,44 +151,26 @@
             this.InnerSphereRadio.UseVisualStyleBackColor = true;
             this.InnerSphereRadio.CheckedChanged += new System.EventHandler(this.InnerSphereRadio_CheckedChanged);
             // 
-            // TonnageCombo
+            // InternalStructureTabPage
             // 
-            this.TonnageCombo.FormattingEnabled = true;
-            this.TonnageCombo.Items.AddRange(new object[] {
-            "20",
-            "25",
-            "30",
-            "35",
-            "40",
-            "45",
-            "50",
-            "55",
-            "60",
-            "65",
-            "70",
-            "75",
-            "80",
-            "85",
-            "90",
-            "95",
-            "100"});
-            this.TonnageCombo.Location = new System.Drawing.Point(6, 55);
-            this.TonnageCombo.Name = "TonnageCombo";
-            this.TonnageCombo.Size = new System.Drawing.Size(121, 21);
-            this.TonnageCombo.TabIndex = 2;
-            this.TonnageCombo.Text = "Select Tonnage";
+            this.InternalStructureTabPage.Location = new System.Drawing.Point(4, 4);
+            this.InternalStructureTabPage.Name = "InternalStructureTabPage";
+            this.InternalStructureTabPage.Padding = new System.Windows.Forms.Padding(3);
+            this.InternalStructureTabPage.Size = new System.Drawing.Size(505, 733);
+            this.InternalStructureTabPage.TabIndex = 1;
+            this.InternalStructureTabPage.Text = "Internal Structure";
+            this.InternalStructureTabPage.UseVisualStyleBackColor = true;
             // 
-            // technologyGroupBox
+            // tabPage3
             // 
-            this.technologyGroupBox.Controls.Add(this.ClanRadio);
-            this.technologyGroupBox.Controls.Add(this.InnerSphereRadio);
-            this.technologyGroupBox.Location = new System.Drawing.Point(6, 8);
-            this.technologyGroupBox.Name = "technologyGroupBox";
-            this.technologyGroupBox.Size = new System.Drawing.Size(377, 41);
-            this.technologyGroupBox.TabIndex = 12;
-            this.technologyGroupBox.TabStop = false;
-            this.technologyGroupBox.Text = "Technology Base:";
-            this.technologyGroupBox.Enter += new System.EventHandler(this.groupBox1_Enter);
+            this.tabPage3.Controls.Add(this.ArmorGroupBox);
+            this.tabPage3.Location = new System.Drawing.Point(4, 4);
+            this.tabPage3.Name = "tabPage3";
+            this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage3.Size = new System.Drawing.Size(505, 733);
+            this.tabPage3.TabIndex = 2;
+            this.tabPage3.Text = "Armor";
+            this.tabPage3.UseVisualStyleBackColor = true;
             // 
             // ArmorGroupBox
             // 
@@ -294,27 +185,16 @@
             this.ArmorGroupBox.TabStop = false;
             this.ArmorGroupBox.Text = "groupBox2";
             // 
-            // radioButton1
+            // radioButton4
             // 
-            this.radioButton1.AutoSize = true;
-            this.radioButton1.Location = new System.Drawing.Point(22, 20);
-            this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(85, 17);
-            this.radioButton1.TabIndex = 0;
-            this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "radioButton1";
-            this.radioButton1.UseVisualStyleBackColor = true;
-            // 
-            // radioButton2
-            // 
-            this.radioButton2.AutoSize = true;
-            this.radioButton2.Location = new System.Drawing.Point(22, 55);
-            this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(85, 17);
-            this.radioButton2.TabIndex = 1;
-            this.radioButton2.TabStop = true;
-            this.radioButton2.Text = "radioButton2";
-            this.radioButton2.UseVisualStyleBackColor = true;
+            this.radioButton4.AutoSize = true;
+            this.radioButton4.Location = new System.Drawing.Point(156, 55);
+            this.radioButton4.Name = "radioButton4";
+            this.radioButton4.Size = new System.Drawing.Size(85, 17);
+            this.radioButton4.TabIndex = 3;
+            this.radioButton4.TabStop = true;
+            this.radioButton4.Text = "radioButton4";
+            this.radioButton4.UseVisualStyleBackColor = true;
             // 
             // radioButton3
             // 
@@ -327,46 +207,340 @@
             this.radioButton3.Text = "radioButton3";
             this.radioButton3.UseVisualStyleBackColor = true;
             // 
-            // radioButton4
+            // radioButton2
             // 
-            this.radioButton4.AutoSize = true;
-            this.radioButton4.Location = new System.Drawing.Point(156, 55);
-            this.radioButton4.Name = "radioButton4";
-            this.radioButton4.Size = new System.Drawing.Size(85, 17);
-            this.radioButton4.TabIndex = 3;
-            this.radioButton4.TabStop = true;
-            this.radioButton4.Text = "radioButton4";
-            this.radioButton4.UseVisualStyleBackColor = true;
+            this.radioButton2.AutoSize = true;
+            this.radioButton2.Location = new System.Drawing.Point(22, 55);
+            this.radioButton2.Name = "radioButton2";
+            this.radioButton2.Size = new System.Drawing.Size(85, 17);
+            this.radioButton2.TabIndex = 1;
+            this.radioButton2.TabStop = true;
+            this.radioButton2.Text = "radioButton2";
+            this.radioButton2.UseVisualStyleBackColor = true;
+            // 
+            // radioButton1
+            // 
+            this.radioButton1.AutoSize = true;
+            this.radioButton1.Location = new System.Drawing.Point(22, 20);
+            this.radioButton1.Name = "radioButton1";
+            this.radioButton1.Size = new System.Drawing.Size(85, 17);
+            this.radioButton1.TabIndex = 0;
+            this.radioButton1.TabStop = true;
+            this.radioButton1.Text = "radioButton1";
+            this.radioButton1.UseVisualStyleBackColor = true;
+            // 
+            // tabPage4
+            // 
+            this.tabPage4.Location = new System.Drawing.Point(4, 4);
+            this.tabPage4.Name = "tabPage4";
+            this.tabPage4.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage4.Size = new System.Drawing.Size(505, 733);
+            this.tabPage4.TabIndex = 3;
+            this.tabPage4.Text = "Weapons";
+            this.tabPage4.UseVisualStyleBackColor = true;
+            // 
+            // tabPage5
+            // 
+            this.tabPage5.Location = new System.Drawing.Point(4, 4);
+            this.tabPage5.Name = "tabPage5";
+            this.tabPage5.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage5.Size = new System.Drawing.Size(505, 733);
+            this.tabPage5.TabIndex = 4;
+            this.tabPage5.Text = "tabPage5";
+            this.tabPage5.UseVisualStyleBackColor = true;
+            // 
+            // tabPage6
+            // 
+            this.tabPage6.Location = new System.Drawing.Point(4, 4);
+            this.tabPage6.Name = "tabPage6";
+            this.tabPage6.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage6.Size = new System.Drawing.Size(505, 733);
+            this.tabPage6.TabIndex = 5;
+            this.tabPage6.Text = "tabPage6";
+            this.tabPage6.UseVisualStyleBackColor = true;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(6, 25);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(62, 13);
+            this.label1.TabIndex = 13;
+            this.label1.Text = "Clan Name:";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(6, 51);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(102, 13);
+            this.label2.TabIndex = 14;
+            this.label2.Text = "Inner Sphere Name:";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(3, 31);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(0, 13);
+            this.label3.TabIndex = 15;
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(115, 22);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(205, 20);
+            this.textBox1.TabIndex = 16;
+            this.textBox1.Text = "Input Clan Name";
+            // 
+            // textBox2
+            // 
+            this.textBox2.ForeColor = System.Drawing.SystemColors.WindowText;
+            this.textBox2.Location = new System.Drawing.Point(115, 44);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(205, 20);
+            this.textBox2.TabIndex = 17;
+            this.textBox2.Text = "Input Inner Sphere Name";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(6, 27);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(103, 13);
+            this.label4.TabIndex = 18;
+            this.label4.Text = "Manufactoring Year:";
+            // 
+            // textBox3
+            // 
+            this.textBox3.Location = new System.Drawing.Point(115, 20);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(100, 20);
+            this.textBox3.TabIndex = 19;
+            // 
+            // BattlemechNameGroupBox
+            // 
+            this.BattlemechNameGroupBox.Controls.Add(this.label2);
+            this.BattlemechNameGroupBox.Controls.Add(this.label1);
+            this.BattlemechNameGroupBox.Controls.Add(this.textBox1);
+            this.BattlemechNameGroupBox.Controls.Add(this.textBox2);
+            this.BattlemechNameGroupBox.Location = new System.Drawing.Point(6, 61);
+            this.BattlemechNameGroupBox.Name = "BattlemechNameGroupBox";
+            this.BattlemechNameGroupBox.Size = new System.Drawing.Size(332, 81);
+            this.BattlemechNameGroupBox.TabIndex = 20;
+            this.BattlemechNameGroupBox.TabStop = false;
+            this.BattlemechNameGroupBox.Text = "Battlemech Name:";
+            // 
+            // YearRatingGroupBox
+            // 
+            this.YearRatingGroupBox.Controls.Add(this.textBox4);
+            this.YearRatingGroupBox.Controls.Add(this.label5);
+            this.YearRatingGroupBox.Controls.Add(this.label4);
+            this.YearRatingGroupBox.Controls.Add(this.textBox3);
+            this.YearRatingGroupBox.Enabled = false;
+            this.YearRatingGroupBox.Location = new System.Drawing.Point(6, 148);
+            this.YearRatingGroupBox.Name = "YearRatingGroupBox";
+            this.YearRatingGroupBox.Size = new System.Drawing.Size(332, 87);
+            this.YearRatingGroupBox.TabIndex = 21;
+            this.YearRatingGroupBox.TabStop = false;
+            this.YearRatingGroupBox.Text = "Manufacturing Year and Technology Rating:";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(6, 60);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(100, 13);
+            this.label5.TabIndex = 20;
+            this.label5.Text = "Technology Rating:";
+            // 
+            // textBox4
+            // 
+            this.textBox4.Location = new System.Drawing.Point(115, 53);
+            this.textBox4.Name = "textBox4";
+            this.textBox4.Size = new System.Drawing.Size(100, 20);
+            this.textBox4.TabIndex = 21;
+            // 
+            // YearRatingCheckBox
+            // 
+            this.YearRatingCheckBox.AutoSize = true;
+            this.YearRatingCheckBox.Location = new System.Drawing.Point(345, 184);
+            this.YearRatingCheckBox.Name = "YearRatingCheckBox";
+            this.YearRatingCheckBox.Size = new System.Drawing.Size(125, 17);
+            this.YearRatingCheckBox.TabIndex = 22;
+            this.YearRatingCheckBox.Text = "Use Year and Rating";
+            this.YearRatingCheckBox.UseVisualStyleBackColor = true;
+            // 
+            // OmniMechCheckBox
+            // 
+            this.OmniMechCheckBox.AutoSize = true;
+            this.OmniMechCheckBox.Location = new System.Drawing.Point(161, 18);
+            this.OmniMechCheckBox.Name = "OmniMechCheckBox";
+            this.OmniMechCheckBox.Size = new System.Drawing.Size(77, 17);
+            this.OmniMechCheckBox.TabIndex = 2;
+            this.OmniMechCheckBox.Text = "OmniMech";
+            this.OmniMechCheckBox.UseVisualStyleBackColor = true;
+            // 
+            // MechWeightGroupBox
+            // 
+            this.MechWeightGroupBox.Controls.Add(this.label6);
+            this.MechWeightGroupBox.Controls.Add(this.numericUpDown2);
+            this.MechWeightGroupBox.Controls.Add(this.AssualtMechRadio);
+            this.MechWeightGroupBox.Controls.Add(this.HeavyMechRadio);
+            this.MechWeightGroupBox.Controls.Add(this.MediumMechRadio);
+            this.MechWeightGroupBox.Controls.Add(this.LightMechRadio);
+            this.MechWeightGroupBox.Location = new System.Drawing.Point(6, 300);
+            this.MechWeightGroupBox.Name = "MechWeightGroupBox";
+            this.MechWeightGroupBox.Size = new System.Drawing.Size(332, 100);
+            this.MechWeightGroupBox.TabIndex = 23;
+            this.MechWeightGroupBox.TabStop = false;
+            this.MechWeightGroupBox.Text = "Weight Classes";
+            // 
+            // LightMechRadio
+            // 
+            this.LightMechRadio.AutoSize = true;
+            this.LightMechRadio.Location = new System.Drawing.Point(9, 20);
+            this.LightMechRadio.Name = "LightMechRadio";
+            this.LightMechRadio.Size = new System.Drawing.Size(105, 17);
+            this.LightMechRadio.TabIndex = 3;
+            this.LightMechRadio.TabStop = true;
+            this.LightMechRadio.Text = "Light BattleMech";
+            this.LightMechRadio.UseVisualStyleBackColor = true;
+            // 
+            // MediumMechRadio
+            // 
+            this.MediumMechRadio.AutoSize = true;
+            this.MediumMechRadio.Location = new System.Drawing.Point(161, 20);
+            this.MediumMechRadio.Name = "MediumMechRadio";
+            this.MediumMechRadio.Size = new System.Drawing.Size(119, 17);
+            this.MediumMechRadio.TabIndex = 4;
+            this.MediumMechRadio.TabStop = true;
+            this.MediumMechRadio.Text = "Medium BattleMech";
+            this.MediumMechRadio.UseVisualStyleBackColor = true;
+            // 
+            // HeavyMechRadio
+            // 
+            this.HeavyMechRadio.AutoSize = true;
+            this.HeavyMechRadio.Location = new System.Drawing.Point(9, 43);
+            this.HeavyMechRadio.Name = "HeavyMechRadio";
+            this.HeavyMechRadio.Size = new System.Drawing.Size(113, 17);
+            this.HeavyMechRadio.TabIndex = 5;
+            this.HeavyMechRadio.TabStop = true;
+            this.HeavyMechRadio.Text = "Heavy BattleMech";
+            this.HeavyMechRadio.UseVisualStyleBackColor = true;
+            this.HeavyMechRadio.CheckedChanged += new System.EventHandler(this.radioButton7_CheckedChanged);
+            // 
+            // AssualtMechRadio
+            // 
+            this.AssualtMechRadio.AutoSize = true;
+            this.AssualtMechRadio.Location = new System.Drawing.Point(161, 43);
+            this.AssualtMechRadio.Name = "AssualtMechRadio";
+            this.AssualtMechRadio.Size = new System.Drawing.Size(116, 17);
+            this.AssualtMechRadio.TabIndex = 6;
+            this.AssualtMechRadio.TabStop = true;
+            this.AssualtMechRadio.Text = "Assualt BattleMech";
+            this.AssualtMechRadio.UseVisualStyleBackColor = true;
+            // 
+            // FactionGroupBox
+            // 
+            this.FactionGroupBox.Controls.Add(this.label7);
+            this.FactionGroupBox.Controls.Add(this.comboBox1);
+            this.FactionGroupBox.Enabled = false;
+            this.FactionGroupBox.Location = new System.Drawing.Point(6, 241);
+            this.FactionGroupBox.Name = "FactionGroupBox";
+            this.FactionGroupBox.Size = new System.Drawing.Size(332, 53);
+            this.FactionGroupBox.TabIndex = 24;
+            this.FactionGroupBox.TabStop = false;
+            this.FactionGroupBox.Text = "Faction:";
+            // 
+            // numericUpDown2
+            // 
+            this.numericUpDown2.Increment = new decimal(new int[] {
+            5,
+            0,
+            0,
+            0});
+            this.numericUpDown2.Location = new System.Drawing.Point(154, 66);
+            this.numericUpDown2.Minimum = new decimal(new int[] {
+            20,
+            0,
+            0,
+            0});
+            this.numericUpDown2.Name = "numericUpDown2";
+            this.numericUpDown2.Size = new System.Drawing.Size(61, 20);
+            this.numericUpDown2.TabIndex = 26;
+            this.numericUpDown2.Value = new decimal(new int[] {
+            20,
+            0,
+            0,
+            0});
+            this.numericUpDown2.ValueChanged += new System.EventHandler(this.numericUpDown2_ValueChanged);
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(55, 73);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(86, 13);
+            this.label6.TabIndex = 27;
+            this.label6.Text = "Select Tonnage:";
+            // 
+            // FactionCheckBox
+            // 
+            this.FactionCheckBox.AutoSize = true;
+            this.FactionCheckBox.Location = new System.Drawing.Point(345, 261);
+            this.FactionCheckBox.Name = "FactionCheckBox";
+            this.FactionCheckBox.Size = new System.Drawing.Size(83, 17);
+            this.FactionCheckBox.TabIndex = 25;
+            this.FactionCheckBox.Text = "Use Faction";
+            this.FactionCheckBox.UseVisualStyleBackColor = true;
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Location = new System.Drawing.Point(115, 16);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(205, 21);
+            this.comboBox1.TabIndex = 0;
+            this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(6, 24);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(78, 13);
+            this.label7.TabIndex = 1;
+            this.label7.Text = "Select Faction:";
             // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(862, 839);
-            this.Controls.Add(this.textBox12);
-            this.Controls.Add(this.textBox11);
-            this.Controls.Add(this.textBox10);
-            this.Controls.Add(this.textBox9);
-            this.Controls.Add(this.textBox8);
-            this.Controls.Add(this.textBox7);
-            this.Controls.Add(this.textBox6);
-            this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.ClientSize = new System.Drawing.Size(1016, 741);
             this.Controls.Add(this.TechnologyTab);
             this.MaximizeBox = false;
             this.Name = "MainForm";
-            this.Text = "Form1";
+            this.Text = "Battletech Designer";
             this.TechnologyTab.ResumeLayout(false);
             this.MainSelectionTabPage.ResumeLayout(false);
+            this.MainSelectionTabPage.PerformLayout();
+            this.TechnologyGroupBox.ResumeLayout(false);
+            this.TechnologyGroupBox.PerformLayout();
             this.tabPage3.ResumeLayout(false);
-            this.technologyGroupBox.ResumeLayout(false);
-            this.technologyGroupBox.PerformLayout();
             this.ArmorGroupBox.ResumeLayout(false);
             this.ArmorGroupBox.PerformLayout();
+            this.BattlemechNameGroupBox.ResumeLayout(false);
+            this.BattlemechNameGroupBox.PerformLayout();
+            this.YearRatingGroupBox.ResumeLayout(false);
+            this.YearRatingGroupBox.PerformLayout();
+            this.MechWeightGroupBox.ResumeLayout(false);
+            this.MechWeightGroupBox.PerformLayout();
+            this.FactionGroupBox.ResumeLayout(false);
+            this.FactionGroupBox.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).EndInit();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -374,31 +548,43 @@
 
         private System.Windows.Forms.TabControl TechnologyTab;
         private System.Windows.Forms.TabPage MainSelectionTabPage;
-        private System.Windows.Forms.TabPage tabPage2;
+        private System.Windows.Forms.TabPage InternalStructureTabPage;
         private System.Windows.Forms.TabPage tabPage3;
         private System.Windows.Forms.TabPage tabPage4;
         private System.Windows.Forms.TabPage tabPage5;
         private System.Windows.Forms.TabPage tabPage6;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.TextBox textBox7;
-        private System.Windows.Forms.TextBox textBox8;
-        private System.Windows.Forms.TextBox textBox9;
-        private System.Windows.Forms.TextBox textBox10;
-        private System.Windows.Forms.TextBox textBox11;
-        private System.Windows.Forms.TextBox textBox12;
-        private System.Windows.Forms.ComboBox TonnageCombo;
         private System.Windows.Forms.RadioButton InnerSphereRadio;
         private System.Windows.Forms.RadioButton ClanRadio;
-        private System.Windows.Forms.GroupBox technologyGroupBox;
+        private System.Windows.Forms.GroupBox TechnologyGroupBox;
         private System.Windows.Forms.GroupBox ArmorGroupBox;
         private System.Windows.Forms.RadioButton radioButton4;
         private System.Windows.Forms.RadioButton radioButton3;
         private System.Windows.Forms.RadioButton radioButton2;
         private System.Windows.Forms.RadioButton radioButton1;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.GroupBox YearRatingGroupBox;
+        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.GroupBox BattlemechNameGroupBox;
+        private System.Windows.Forms.CheckBox YearRatingCheckBox;
+        private System.Windows.Forms.GroupBox MechWeightGroupBox;
+        private System.Windows.Forms.RadioButton HeavyMechRadio;
+        private System.Windows.Forms.RadioButton MediumMechRadio;
+        private System.Windows.Forms.RadioButton LightMechRadio;
+        private System.Windows.Forms.CheckBox OmniMechCheckBox;
+        private System.Windows.Forms.RadioButton AssualtMechRadio;
+        private System.Windows.Forms.GroupBox FactionGroupBox;
+        private System.Windows.Forms.NumericUpDown numericUpDown2;
+        private System.Windows.Forms.CheckBox FactionCheckBox;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.ComboBox comboBox1;
     }
 }
 
