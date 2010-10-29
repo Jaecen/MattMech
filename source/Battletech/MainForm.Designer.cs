@@ -29,11 +29,11 @@
         private void InitializeComponent()
         {
             this.TechnologyTab = new System.Windows.Forms.TabControl();
-            this.MainSelectionTabPage = new System.Windows.Forms.TabPage();
+            this.TechnologyTabPage = new System.Windows.Forms.TabPage();
             this.TechnologyGroupBox = new System.Windows.Forms.GroupBox();
             this.ClanRadio = new System.Windows.Forms.RadioButton();
             this.InnerSphereRadio = new System.Windows.Forms.RadioButton();
-            this.InternalStructureTabPage = new System.Windows.Forms.TabPage();
+            this.InternalComponentsTabPage = new System.Windows.Forms.TabPage();
             this.tabPage3 = new System.Windows.Forms.TabPage();
             this.ArmorGroupBox = new System.Windows.Forms.GroupBox();
             this.radioButton4 = new System.Windows.Forms.RadioButton();
@@ -67,9 +67,14 @@
             this.FactionCheckBox = new System.Windows.Forms.CheckBox();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.label7 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
+            this.radioButton5 = new System.Windows.Forms.RadioButton();
+            this.radioButton6 = new System.Windows.Forms.RadioButton();
+            this.InternalStructureGroupBox = new System.Windows.Forms.GroupBox();
             this.TechnologyTab.SuspendLayout();
-            this.MainSelectionTabPage.SuspendLayout();
+            this.TechnologyTabPage.SuspendLayout();
             this.TechnologyGroupBox.SuspendLayout();
+            this.InternalComponentsTabPage.SuspendLayout();
             this.tabPage3.SuspendLayout();
             this.ArmorGroupBox.SuspendLayout();
             this.BattlemechNameGroupBox.SuspendLayout();
@@ -77,13 +82,14 @@
             this.MechWeightGroupBox.SuspendLayout();
             this.FactionGroupBox.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).BeginInit();
+            this.InternalStructureGroupBox.SuspendLayout();
             this.SuspendLayout();
             // 
             // TechnologyTab
             // 
             this.TechnologyTab.Alignment = System.Windows.Forms.TabAlignment.Right;
-            this.TechnologyTab.Controls.Add(this.MainSelectionTabPage);
-            this.TechnologyTab.Controls.Add(this.InternalStructureTabPage);
+            this.TechnologyTab.Controls.Add(this.TechnologyTabPage);
+            this.TechnologyTab.Controls.Add(this.InternalComponentsTabPage);
             this.TechnologyTab.Controls.Add(this.tabPage3);
             this.TechnologyTab.Controls.Add(this.tabPage4);
             this.TechnologyTab.Controls.Add(this.tabPage5);
@@ -96,24 +102,24 @@
             this.TechnologyTab.Size = new System.Drawing.Size(532, 741);
             this.TechnologyTab.TabIndex = 0;
             // 
-            // MainSelectionTabPage
+            // TechnologyTabPage
             // 
-            this.MainSelectionTabPage.Controls.Add(this.FactionCheckBox);
-            this.MainSelectionTabPage.Controls.Add(this.FactionGroupBox);
-            this.MainSelectionTabPage.Controls.Add(this.MechWeightGroupBox);
-            this.MainSelectionTabPage.Controls.Add(this.YearRatingCheckBox);
-            this.MainSelectionTabPage.Controls.Add(this.YearRatingGroupBox);
-            this.MainSelectionTabPage.Controls.Add(this.BattlemechNameGroupBox);
-            this.MainSelectionTabPage.Controls.Add(this.label3);
-            this.MainSelectionTabPage.Controls.Add(this.TechnologyGroupBox);
-            this.MainSelectionTabPage.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.MainSelectionTabPage.Location = new System.Drawing.Point(4, 4);
-            this.MainSelectionTabPage.Name = "MainSelectionTabPage";
-            this.MainSelectionTabPage.Padding = new System.Windows.Forms.Padding(3);
-            this.MainSelectionTabPage.Size = new System.Drawing.Size(505, 733);
-            this.MainSelectionTabPage.TabIndex = 0;
-            this.MainSelectionTabPage.Text = "Technology";
-            this.MainSelectionTabPage.UseVisualStyleBackColor = true;
+            this.TechnologyTabPage.Controls.Add(this.FactionCheckBox);
+            this.TechnologyTabPage.Controls.Add(this.FactionGroupBox);
+            this.TechnologyTabPage.Controls.Add(this.MechWeightGroupBox);
+            this.TechnologyTabPage.Controls.Add(this.YearRatingCheckBox);
+            this.TechnologyTabPage.Controls.Add(this.YearRatingGroupBox);
+            this.TechnologyTabPage.Controls.Add(this.BattlemechNameGroupBox);
+            this.TechnologyTabPage.Controls.Add(this.label3);
+            this.TechnologyTabPage.Controls.Add(this.TechnologyGroupBox);
+            this.TechnologyTabPage.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.TechnologyTabPage.Location = new System.Drawing.Point(4, 4);
+            this.TechnologyTabPage.Name = "TechnologyTabPage";
+            this.TechnologyTabPage.Padding = new System.Windows.Forms.Padding(3);
+            this.TechnologyTabPage.Size = new System.Drawing.Size(505, 733);
+            this.TechnologyTabPage.TabIndex = 0;
+            this.TechnologyTabPage.Text = "Technology Base ";
+            this.TechnologyTabPage.UseVisualStyleBackColor = true;
             // 
             // TechnologyGroupBox
             // 
@@ -122,7 +128,7 @@
             this.TechnologyGroupBox.Controls.Add(this.InnerSphereRadio);
             this.TechnologyGroupBox.Location = new System.Drawing.Point(6, 8);
             this.TechnologyGroupBox.Name = "TechnologyGroupBox";
-            this.TechnologyGroupBox.Size = new System.Drawing.Size(332, 47);
+            this.TechnologyGroupBox.Size = new System.Drawing.Size(347, 47);
             this.TechnologyGroupBox.TabIndex = 12;
             this.TechnologyGroupBox.TabStop = false;
             this.TechnologyGroupBox.Text = "Technology Base:";
@@ -151,15 +157,16 @@
             this.InnerSphereRadio.UseVisualStyleBackColor = true;
             this.InnerSphereRadio.CheckedChanged += new System.EventHandler(this.InnerSphereRadio_CheckedChanged);
             // 
-            // InternalStructureTabPage
+            // InternalComponentsTabPage
             // 
-            this.InternalStructureTabPage.Location = new System.Drawing.Point(4, 4);
-            this.InternalStructureTabPage.Name = "InternalStructureTabPage";
-            this.InternalStructureTabPage.Padding = new System.Windows.Forms.Padding(3);
-            this.InternalStructureTabPage.Size = new System.Drawing.Size(505, 733);
-            this.InternalStructureTabPage.TabIndex = 1;
-            this.InternalStructureTabPage.Text = "Internal Structure";
-            this.InternalStructureTabPage.UseVisualStyleBackColor = true;
+            this.InternalComponentsTabPage.Controls.Add(this.InternalStructureGroupBox);
+            this.InternalComponentsTabPage.Location = new System.Drawing.Point(4, 4);
+            this.InternalComponentsTabPage.Name = "InternalComponentsTabPage";
+            this.InternalComponentsTabPage.Padding = new System.Windows.Forms.Padding(3);
+            this.InternalComponentsTabPage.Size = new System.Drawing.Size(505, 733);
+            this.InternalComponentsTabPage.TabIndex = 1;
+            this.InternalComponentsTabPage.Text = "Internal Components";
+            this.InternalComponentsTabPage.UseVisualStyleBackColor = true;
             // 
             // tabPage3
             // 
@@ -327,7 +334,7 @@
             this.BattlemechNameGroupBox.Controls.Add(this.textBox2);
             this.BattlemechNameGroupBox.Location = new System.Drawing.Point(6, 61);
             this.BattlemechNameGroupBox.Name = "BattlemechNameGroupBox";
-            this.BattlemechNameGroupBox.Size = new System.Drawing.Size(332, 81);
+            this.BattlemechNameGroupBox.Size = new System.Drawing.Size(347, 81);
             this.BattlemechNameGroupBox.TabIndex = 20;
             this.BattlemechNameGroupBox.TabStop = false;
             this.BattlemechNameGroupBox.Text = "Battlemech Name:";
@@ -341,7 +348,7 @@
             this.YearRatingGroupBox.Enabled = false;
             this.YearRatingGroupBox.Location = new System.Drawing.Point(6, 148);
             this.YearRatingGroupBox.Name = "YearRatingGroupBox";
-            this.YearRatingGroupBox.Size = new System.Drawing.Size(332, 87);
+            this.YearRatingGroupBox.Size = new System.Drawing.Size(347, 87);
             this.YearRatingGroupBox.TabIndex = 21;
             this.YearRatingGroupBox.TabStop = false;
             this.YearRatingGroupBox.Text = "Manufacturing Year and Technology Rating:";
@@ -365,7 +372,7 @@
             // YearRatingCheckBox
             // 
             this.YearRatingCheckBox.AutoSize = true;
-            this.YearRatingCheckBox.Location = new System.Drawing.Point(345, 184);
+            this.YearRatingCheckBox.Location = new System.Drawing.Point(359, 182);
             this.YearRatingCheckBox.Name = "YearRatingCheckBox";
             this.YearRatingCheckBox.Size = new System.Drawing.Size(125, 17);
             this.YearRatingCheckBox.TabIndex = 22;
@@ -392,7 +399,7 @@
             this.MechWeightGroupBox.Controls.Add(this.LightMechRadio);
             this.MechWeightGroupBox.Location = new System.Drawing.Point(6, 300);
             this.MechWeightGroupBox.Name = "MechWeightGroupBox";
-            this.MechWeightGroupBox.Size = new System.Drawing.Size(332, 100);
+            this.MechWeightGroupBox.Size = new System.Drawing.Size(347, 100);
             this.MechWeightGroupBox.TabIndex = 23;
             this.MechWeightGroupBox.TabStop = false;
             this.MechWeightGroupBox.Text = "Weight Classes";
@@ -449,7 +456,7 @@
             this.FactionGroupBox.Enabled = false;
             this.FactionGroupBox.Location = new System.Drawing.Point(6, 241);
             this.FactionGroupBox.Name = "FactionGroupBox";
-            this.FactionGroupBox.Size = new System.Drawing.Size(332, 53);
+            this.FactionGroupBox.Size = new System.Drawing.Size(347, 53);
             this.FactionGroupBox.TabIndex = 24;
             this.FactionGroupBox.TabStop = false;
             this.FactionGroupBox.Text = "Faction:";
@@ -489,7 +496,7 @@
             // FactionCheckBox
             // 
             this.FactionCheckBox.AutoSize = true;
-            this.FactionCheckBox.Location = new System.Drawing.Point(345, 261);
+            this.FactionCheckBox.Location = new System.Drawing.Point(359, 259);
             this.FactionCheckBox.Name = "FactionCheckBox";
             this.FactionCheckBox.Size = new System.Drawing.Size(83, 17);
             this.FactionCheckBox.TabIndex = 25;
@@ -514,20 +521,64 @@
             this.label7.TabIndex = 1;
             this.label7.Text = "Select Faction:";
             // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(1, 723);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(106, 13);
+            this.label8.TabIndex = 1;
+            this.label8.Text = "Remaining Tonnage:";
+            // 
+            // radioButton5
+            // 
+            this.radioButton5.AutoSize = true;
+            this.radioButton5.Location = new System.Drawing.Point(6, 19);
+            this.radioButton5.Name = "radioButton5";
+            this.radioButton5.Size = new System.Drawing.Size(152, 17);
+            this.radioButton5.TabIndex = 0;
+            this.radioButton5.TabStop = true;
+            this.radioButton5.Text = "Standard Internal Structure";
+            this.radioButton5.UseVisualStyleBackColor = true;
+            // 
+            // radioButton6
+            // 
+            this.radioButton6.AutoSize = true;
+            this.radioButton6.Location = new System.Drawing.Point(177, 19);
+            this.radioButton6.Name = "radioButton6";
+            this.radioButton6.Size = new System.Drawing.Size(161, 17);
+            this.radioButton6.TabIndex = 1;
+            this.radioButton6.TabStop = true;
+            this.radioButton6.Text = "Endo Steel Internal Structure";
+            this.radioButton6.UseVisualStyleBackColor = true;
+            // 
+            // InternalStructureGroupBox
+            // 
+            this.InternalStructureGroupBox.Controls.Add(this.radioButton5);
+            this.InternalStructureGroupBox.Controls.Add(this.radioButton6);
+            this.InternalStructureGroupBox.Location = new System.Drawing.Point(6, 8);
+            this.InternalStructureGroupBox.Name = "InternalStructureGroupBox";
+            this.InternalStructureGroupBox.Size = new System.Drawing.Size(347, 46);
+            this.InternalStructureGroupBox.TabIndex = 2;
+            this.InternalStructureGroupBox.TabStop = false;
+            this.InternalStructureGroupBox.Text = "Internal Structure:";
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1016, 741);
+            this.Controls.Add(this.label8);
             this.Controls.Add(this.TechnologyTab);
             this.MaximizeBox = false;
             this.Name = "MainForm";
             this.Text = "Battletech Designer";
             this.TechnologyTab.ResumeLayout(false);
-            this.MainSelectionTabPage.ResumeLayout(false);
-            this.MainSelectionTabPage.PerformLayout();
+            this.TechnologyTabPage.ResumeLayout(false);
+            this.TechnologyTabPage.PerformLayout();
             this.TechnologyGroupBox.ResumeLayout(false);
             this.TechnologyGroupBox.PerformLayout();
+            this.InternalComponentsTabPage.ResumeLayout(false);
             this.tabPage3.ResumeLayout(false);
             this.ArmorGroupBox.ResumeLayout(false);
             this.ArmorGroupBox.PerformLayout();
@@ -540,15 +591,18 @@
             this.FactionGroupBox.ResumeLayout(false);
             this.FactionGroupBox.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).EndInit();
+            this.InternalStructureGroupBox.ResumeLayout(false);
+            this.InternalStructureGroupBox.PerformLayout();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
 
         private System.Windows.Forms.TabControl TechnologyTab;
-        private System.Windows.Forms.TabPage MainSelectionTabPage;
-        private System.Windows.Forms.TabPage InternalStructureTabPage;
+        private System.Windows.Forms.TabPage TechnologyTabPage;
+        private System.Windows.Forms.TabPage InternalComponentsTabPage;
         private System.Windows.Forms.TabPage tabPage3;
         private System.Windows.Forms.TabPage tabPage4;
         private System.Windows.Forms.TabPage tabPage5;
@@ -585,6 +639,10 @@
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.RadioButton radioButton6;
+        private System.Windows.Forms.RadioButton radioButton5;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.GroupBox InternalStructureGroupBox;
     }
 }
 
