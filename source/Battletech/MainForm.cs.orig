@@ -25,9 +25,15 @@ namespace Battletech
 		{
 			TonnageCombo.Items.Clear();
 
+<<<<<<< HEAD
 			for(int tons = 20; tons <= 150; tons += 5)
 				TonnageCombo.Items.Add(tons);
 		}
+=======
+        private void groupBox1_Enter(object sender, EventArgs e)
+        {
+
+        }
 
         private void label2_Click(object sender, EventArgs e)
         {
@@ -53,5 +59,6 @@ namespace Battletech
         {
 
         }
+>>>>>>> b807ce9b2ede3f9e06c3067cda948b2c26c522f3
     }
 }
