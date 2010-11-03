@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Engines>
+  <Engine>
+    <Rating>150</Rating>
+    <Tonnage>20</Tonnage>
+    <Criticals>2</Criticals>
+  </Engine>
+  <Engine>
+    <Rating>150</Rating>
+    <Tonnage>20</Tonnage>
+    <Criticals>2</Criticals>
+  </Engine>
+</Engines>
+
+<Weapons>
+  <Weapon>
+    <Type>
+      
+    </Type>
+    <Name>
+      
+    </Name>
+    <Tonnage>
+      
+    </Tonnage>
+    <Criticals>
+      
+    </Criticals>
+    <AmmoType>
+      
+    </AmmoType>
+  </Weapon>
+</Weapons>

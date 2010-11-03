@@ -16,14 +16,17 @@ namespace Battletech
             InitializeComponent();
         }
 
-        private void InnerSphereRadio_CheckedChanged(object sender, EventArgs e)
-        {
+		private void TonnageCombo_SelectedIndexChanged(object sender, EventArgs e)
+		{
+			//MessageBox.Show("You selected " + TonnageCombo.SelectedItem.ToString());
+		}
 
-        }
+		private void MainForm_Load(object sender, EventArgs e)
+		{
+			TonnageCombo.Items.Clear();
 
-        private void groupBox1_Enter(object sender, EventArgs e)
-        {
-
-        }
+			for(int tons = 20; tons <= 150; tons += 5)
+				TonnageCombo.Items.Add(tons);
+		}
     }
 }
