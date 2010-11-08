@@ -23,10 +23,7 @@ namespace Battletech
 
 		private void MainForm_Load(object sender, EventArgs e)
 		{
-			TonnageCombo.Items.Clear();
-
-			for(int tons = 20; tons <= 150; tons += 5)
-				TonnageCombo.Items.Add(tons);
+			
 		}
 
         private void label2_Click(object sender, EventArgs e)
