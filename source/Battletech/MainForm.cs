@@ -31,11 +31,6 @@ namespace Battletech
 
         }
 
-        private void TonnageCombo_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
-
         private void radioButton7_CheckedChanged(object sender, EventArgs e)
         {
 
