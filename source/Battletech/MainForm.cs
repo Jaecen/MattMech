@@ -16,39 +16,53 @@ namespace Battletech
             InitializeComponent();
         }
 
-        private void InnerSphereRadio_CheckedChanged(object sender, EventArgs e)
-        {
+		private void LightMechRadio_CheckedChanged(object sender, EventArgs e)
+		{
+			if(!LightMechRadio.Checked)
+				return;
 
-        }
+			SetMechTonnageRange(20, 35);
+		}
 
-        private void groupBox1_Enter(object sender, EventArgs e)
-        {
+		private void MediumMechRadio_CheckedChanged(object sender, EventArgs e)
+		{
+			if(!MediumMechRadio.Checked)
+				return;
 
-        }
+			SetMechTonnageRange(40, 55);
+		}
 
-        private void label2_Click(object sender, EventArgs e)
-        {
+		private void HeavyMechRadio_CheckedChanged(object sender, EventArgs e)
+		{
+			if(!HeavyMechRadio.Checked)
+				return;
 
-        }
+			SetMechTonnageRange(60, 75);
+		}
 
-        private void TonnageCombo_SelectedIndexChanged(object sender, EventArgs e)
-        {
+		private void AssualtMechRadio_CheckedChanged(object sender, EventArgs e)
+		{
+			if(!AssualtMechRadio.Checked)
+				return;
 
-        }
+			SetMechTonnageRange(80, 100);
+		}
 
-        private void radioButton7_CheckedChanged(object sender, EventArgs e)
-        {
+		protected void SetMechTonnageRange(int min, int max)
+		{
+			MechTonnageUpDown.Enabled = true;
+			MechTonnageUpDown.Minimum = min;
+			MechTonnageUpDown.Maximum = max;
+		}
 
-        }
+		private void YearRatingCheckBox_CheckedChanged(object sender, EventArgs e)
+		{
+			YearRatingGroupBox.Enabled = YearRatingCheckBox.Checked;
+		}
 
-        private void numericUpDown2_ValueChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
-    }
+		private void FactionCheckBox_CheckedChanged(object sender, EventArgs e)
+		{
+			FactionGroupBox.Enabled = FactionCheckBox.Checked;
+		}
+	}
 }

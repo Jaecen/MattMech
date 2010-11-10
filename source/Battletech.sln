@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual C# Express 2010
+# Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Battletech.Client", "Battletech\Battletech.Client.csproj", "{9EB1848B-651F-424F-84CA-27F20BA128FD}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Battletech.Core", "Battletech.Core\Battletech.Core.csproj", "{157A4901-3262-4E58-A7AB-128FA70AE419}"
